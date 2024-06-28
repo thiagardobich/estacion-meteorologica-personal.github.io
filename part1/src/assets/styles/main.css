@@ -1,0 +1,55 @@
+/* src/styles/main.css */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff700; /* Fondo amarillo */
+}
+
+.hero {
+  background-color: #0a8a25; /* Primary color */
+}
+
+.title, .subtitle {
+  color: #c80ce0;
+}
+
+.navbar-item {
+  color: #173bda;
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  background-color: #4a4a4a;
+  color: #ca17da;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: center; /* Centra los items horizontalmente */
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: 3rem 1.5rem;
+}
+
+.footer {
+  background-color: #3273dc; /* Primary color */
+  padding: 2rem 1.5rem;
+  color: #fff;
+}
+
+/* Estilos para las imágenes */
+img {
+  border: 2px solid #3273dc; /* Borde inicial */
+  transition: border-color 0.3s ease; /* Transición suave */
+  height: 200px;
+}
+
+
+img:hover {
+  border-color: #40f509; /* Color del borde cuando se pasa el cursor */
+}
